@@ -2,18 +2,18 @@
   "stats": {
     "suites": 6,
     "tests": 5,
-    "passes": 1,
+    "passes": 2,
     "pending": 0,
-    "failures": 4,
-    "start": "2024-10-12T16:52:46.047Z",
-    "end": "2024-10-12T16:52:46.569Z",
-    "duration": 522
+    "failures": 3,
+    "start": "2024-10-12T17:03:00.687Z",
+    "end": "2024-10-12T17:03:01.205Z",
+    "duration": 518
   },
   "tests": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
-      "duration": 1,
+      "duration": 6,
       "currentRetry": 0,
       "err": {}
     },
@@ -33,12 +33,9 @@
     {
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: setBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:23:7)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "setBestCustomer is not defined"
-      }
+      "err": {}
     },
     {
       "title": "overwrites the best customer",
@@ -77,16 +74,6 @@
       }
     },
     {
-      "title": "setBestCustomer",
-      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: setBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:23:7)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "setBestCustomer is not defined"
-      }
-    },
-    {
       "title": "overwrites the best customer",
       "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
       "duration": 0,
@@ -111,6 +98,13 @@
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "setBestCustomer",
+      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
       "duration": 1,
       "currentRetry": 0,
       "err": {}
