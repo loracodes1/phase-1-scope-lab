@@ -3,10 +3,8 @@
 const myVar = 42;
 
 function myFunc() {
-  const myVar = 9001;
-
+    const myVar = 9000;
   return myVar;
-}
 
-myFunc();
-// => 9001
+}
+console.log(myFunc())
