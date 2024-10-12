@@ -1,17 +1,26 @@
-var customerName ="bob"
-const leastFavoriteCustomer ="modefaka"
+// 1. Declare customerName in global scope
+var customerName = "bob"; // Global variable
 
- function upperCaseCustomerName(){
-    let upperCustomerName = customerName.toUpperCase()
-    return customerName.toUpperCase()
- }
- console.log(upperCaseCustomerName())
+// 2. Function to uppercase the customerName
+function upperCaseCustomerName() {
+    customerName = customerName.toUpperCase(); // Modify the global customerName
+}
 
- function setBestCustomer (){
-    bestCustomer = "not bob" //variables created without a const, let and var keywords are always globally scoped, regardless of where they sit in your code ;
- }
+// 3. Function to set bestCustomer
+function setBestCustomer() {
+    bestCustomer = "not bob"; // Declare bestCustomer in global scope
+}
 
-  function overwriteBestCustomer(){
-     let bestCustomer = "maybe bob";
- }
- 
+// 4. Function to overwrite bestCustomer
+function overwriteBestCustomer() {
+    bestCustomer = "maybe bob"; // Change the global bestCustomer
+}
+
+// 5. Declare leastFavoriteCustomer as a constant
+const leastFavoriteCustomer = "modefaka"; // Constant for least favorite customer
+
+// 6. Function to attempt to change leastFavoriteCustomer
+function changeLeastFavoriteCustomer() {
+    leastFavoriteCustomer = "Donn"; // This will throw an error
+}
+
